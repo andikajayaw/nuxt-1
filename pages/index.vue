@@ -4,7 +4,7 @@
     <ul>
       <li v-for="user,index in users" :key="index">
         {{user.name}}|
-         {{user.name}}
+         <nuxt-link class="btn btn-primary btn-sm" :to="`/user/${user.id}`" >detail</nuxt-link>
       </li>
     </ul>
   </div>
