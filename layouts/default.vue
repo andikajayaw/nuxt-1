@@ -6,11 +6,10 @@
           <a class="nav-link active" aria-current="page" href="#">Active</a>
         </li>
         <li class="nav-item">
-      
-          <nuxt-link to="/" class="nav-link" >Home</nuxt-link>
+          <nuxt-link to="/" class="nav-link">Home</nuxt-link>
         </li>
         <li class="nav-item">
-           <nuxt-link to="/about" class="nav-link" >about</nuxt-link>
+          <nuxt-link to="/about" class="nav-link">about</nuxt-link>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
