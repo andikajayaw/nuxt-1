@@ -5,7 +5,7 @@
     <ul v-if="!$fetchState.pending">
       <li v-for="user,index in users" :key="index">
         {{user.name}}|
-         {{user.name}}
+         {{user.username}}
       </li>
     </ul>
     <span v-else>
