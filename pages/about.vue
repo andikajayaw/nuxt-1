@@ -1,12 +1,16 @@
 <template>
   <div class="container">
     <h3>Index home</h3>
-    <ul>
+    <button class="btn btn-primary" @click.prevent="$fetch"> refresh</button>
+    <ul v-if="!$fetchState.pending">
       <li v-for="user,index in users" :key="index">
         {{user.name}}|
          {{user.name}}
       </li>
     </ul>
+    <span v-else>
+      loading
+    </span>
   </div>
 </template>
 
