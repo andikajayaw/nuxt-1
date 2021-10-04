@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <div class="container">
+    <h3>Index home</h3>
+  </div>
 </template>
 
 <script>
