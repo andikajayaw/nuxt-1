@@ -13,6 +13,9 @@
           <nuxt-link to="/contact" class="nav-link">contact</nuxt-link>
         </li>
       
+         <li class="nav-item">
+          <nuxt-link to="/auth" class="nav-link">Auth</nuxt-link>
+        </li>
       </ul>
       <nuxt />
     </div>
